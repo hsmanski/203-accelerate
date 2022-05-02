@@ -9,3 +9,19 @@ Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
 */
+
+/* Update homepage banner image */
+.home-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
+}
+
+/* Update nav background color */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* Update Button background color */
+.button {
+  background: none repeat scroll 0 0 #45ac9d;
+}
