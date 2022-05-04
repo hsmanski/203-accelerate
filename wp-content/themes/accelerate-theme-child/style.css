@@ -50,3 +50,48 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+/* Case Studies  */
+.main-content {
+  padding: 81px 0 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 300px;
+  margin-right: 85px;
+}
+
+.case-study-sidebar h2 {
+  font: bold 1.6em/1.6 "Open Sans", Arial, sans-serif;
+  margin: 70px 0 21px 0;
+}
+
+.case-study-sidebar h4 {
+  font: 0.8em/1.6 "Open Sans", Arial, sans-serif;
+  opacity: 0.5;
+  margin: 0 0 21px 0;
+}
+
+.case-study-sidebar h6 {
+  font: 0.8em/1.6 "Open Sans", Arial, sans-serif;
+  margin-top: 0;
+}
+
+.case-study-sidebar .text {
+  font: 1.1em/1.6 "Open Sans", Arial, sans-serif;
+  margin: 40px 0 44px 0;
+}
+
+.read-more-link {
+  font: bold 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
+}
+
+.case-study-images {
+  float: left;
+  width: 550px;
+}
+
+.case-study-images img {
+  margin-bottom: 55px;
+}
