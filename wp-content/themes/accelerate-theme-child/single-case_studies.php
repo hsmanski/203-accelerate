@@ -31,7 +31,7 @@ get_header(); ?>
           <h4><?php echo $services; ?></h4>
           <h6>Client: <?php echo $client; ?></h6>
           <?php the_content(); ?>
-          <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+          <p><strong><a href="<?php echo $link; ?>">VIEW PROJECT &gt;</a></strong></p>
         </aside>
 
 				<div class="case-study-images">
