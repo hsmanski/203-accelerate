@@ -51,8 +51,23 @@ Text Domain:  accelerate-theme-child
   text-transform: uppercase;
 }
 
+/* Case Studies Homepage Styles */
+.homepage-work-title {
+  text-align: center;
+}
+
+ul.homepage-work-content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.homepage-work-img {
+  width: 290px;
+  height: 215px;
+}
+
 /* Case Studies  */
-.main-content {
+.site-content {
   padding: 81px 0 0 0;
 }
 
