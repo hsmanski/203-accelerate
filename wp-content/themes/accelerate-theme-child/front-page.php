@@ -33,7 +33,7 @@ get_header(); ?>
 					$size = "medium";
 				?>
 					<li class="homepage-work-item">
-						<img src="<?php echo $image_1; ?>" class="homepage-work-img"/>
+						<a href="<?php the_permalink(); ?>"><img src="<?php echo $image_1; ?>" class="homepage-work-img"/></a>
 					
        			<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					</li>
