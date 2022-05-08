@@ -21,14 +21,14 @@ get_header(); ?>
         $image_1 = get_field('image_1'); ?>
 
       <article class="case-study"></article>
-        <aside class="case-study-sidebar">
+        <aside class="case-study-sidebar archive-case-studies">
           <h2><a href="<?php echo the_permalink(); ?>"><?php the_title();?></a> </h2>
           <h4><?php echo $services; ?></h4>
           <?php the_excerpt(); ?>
-          <p><strong><a href="<?php echo the_permalink(); ?>">VIEW PROJECT &gt;</a></strong></p>
+          <p class="view-projects"><strong><a href="<?php echo the_permalink(); ?>">VIEW PROJECT &gt;</a></strong></p>
         </aside>
 
-				<div class="case-study-images">
+				<div class="case-study-images archive-case-studies-img">
           <a href="<?php echo the_permalink(); ?>">
           <?php if($image_1) { ?>
             <img src="<?php echo $image_1; ?>" />
