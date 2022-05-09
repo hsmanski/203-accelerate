@@ -164,3 +164,31 @@ aside.case-study-sidebar {
 .social-media-menu .menu-item a {
   color: #fff;
 }
+
+/* Contact Form Styles */
+.nf-form-content nf-field-wrap nf-field {
+  display: flex;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+  font-size: 14px;
+}
+
+#nf-field-1,
+#nf-field-2 {
+  width: 50%;
+}
+
+.submit-container {
+  float: right;
+}
+
+#nf-field-4 {
+  font: 700 1em/1 "Montserrat", "OpenSans", Arial, sans-serif;
+  background-color: rgb(69, 172, 157);
+  color: #fff;
+  padding: 1em 80px;
+  text-align: center;
+}
