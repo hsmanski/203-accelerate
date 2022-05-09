@@ -166,8 +166,30 @@ aside.case-study-sidebar {
 }
 
 /* Contact Form Styles */
-.nf-form-content nf-field-wrap nf-field {
-  display: flex;
+.site-content.page {
+  padding: 0;
+  max-width: 615px;
+}
+
+.site-content.page .main-content {
+  padding: 0;
+}
+
+.site-content.page .main-content h2 {
+  margin: 2em 0 0 0;
+}
+
+.site-content.page .main-content p {
+  margin: 1em auto 40px auto;
+}
+
+.nf-form-content {
+  display: table;
+}
+
+.textbox-container,
+.email-container {
+  display: table-cell;
 }
 
 #nf-label-field-1,
@@ -178,7 +200,23 @@ aside.case-study-sidebar {
 
 #nf-field-1,
 #nf-field-2 {
-  width: 50%;
+  width: 295px;
+  background-color: #fff;
+}
+
+#nf-field-1-wrap,
+#nf-field-2-wrap {
+  width: 295px;
+  margin-bottom: 25px;
+}
+
+#nf-field-1-wrap {
+  margin-right: 10px;
+}
+
+.nf-form-content textarea.ninja-forms-field {
+  background-color: #fff;
+  max-width: 615px;
 }
 
 .submit-container {
