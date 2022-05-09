@@ -144,3 +144,23 @@ aside.case-study-sidebar {
 .archive-case-studies-img img {
   margin-bottom: 80px;
 }
+
+/* Footer Social Media Styles */
+.social-media-menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  margin: 0 4px;
+}
+
+.menu-item a {
+  color: #fff;
+}
